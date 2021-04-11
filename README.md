@@ -9,11 +9,12 @@ The `id_rsa.json` is the config file of deploying.
 ## Processing logic
 
 1. check port occupied.
-  1. if occuipied: stop occupy process. 
-  2. if not: continue.
-2. git pull
+    1. if occuipied: stop occupy process. 
+    2. if not: continue.
+2. git pull.
 3. maven build package.
-
+4. java run jar.
+5. check run status.
 
 
 This is a example output of the app.
